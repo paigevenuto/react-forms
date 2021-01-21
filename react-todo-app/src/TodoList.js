@@ -26,10 +26,10 @@ function TodoList() {
   };
 
   return (
-    <ul className="TodoList">
+    <ul className="TodoList" id="TodoList">
       <NewTodoForm addTodo={addTodo} />
       {todos.map((todo) => (
-        <li id={todo.id}>
+        <li id={todo.id} data-testid="todo" key={todo.id}>
           {todo.task}
           <button onClick={delTodo}>X</button>
         </li>

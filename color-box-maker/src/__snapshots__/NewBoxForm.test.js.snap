@@ -11,6 +11,7 @@ exports[`matches snapshot 1`] = `
       Box Color:
     </label>
     <input
+      id="backgroundColor"
       list="backgroundColors"
       name="backgroundColor"
       required=""
@@ -53,6 +54,7 @@ exports[`matches snapshot 1`] = `
       Box Width:
     </label>
     <input
+      id="width"
       name="width"
       required=""
       type="number"
@@ -64,6 +66,7 @@ exports[`matches snapshot 1`] = `
       Box Height:
     </label>
     <input
+      id="height"
       name="height"
       required=""
       type="number"

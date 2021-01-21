@@ -7,7 +7,7 @@ function Box({ backgroundColor, width, height, delBox, id }) {
     height,
   };
   return (
-    <div style={boxStyle} className="Box" id={id}>
+    <div style={boxStyle} className="Box" id={id} data-testid="Box">
       <button onClick={delBox}>X</button>
     </div>
   );

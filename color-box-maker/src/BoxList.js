@@ -26,7 +26,7 @@ function BoxList() {
   };
 
   return (
-    <div className="BoxList">
+    <div className="BoxList" data-testid="BoxList">
       <NewBoxForm addBox={addBox} />
       {boxes.map((b) => (
         <Box

@@ -25,6 +25,7 @@ function NewTodoForm({ addTodo }) {
     <form className="TodoForm" onSubmit={handleSubmit}>
       <input
         name="task"
+        data-testid="test-input"
         value={formData.task}
         onChange={handleChange}
         required

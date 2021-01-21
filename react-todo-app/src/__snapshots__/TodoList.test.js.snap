@@ -4,11 +4,13 @@ exports[`matches snapshot 1`] = `
 <DocumentFragment>
   <ul
     class="TodoList"
+    id="TodoList"
   >
     <form
       class="TodoForm"
     >
       <input
+        data-testid="test-input"
         name="task"
         required=""
         value=""

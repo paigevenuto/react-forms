@@ -31,6 +31,7 @@ function NewBoxForm({ addBox }) {
       <input
         list="backgroundColors"
         name="backgroundColor"
+        id="backgroundColor"
         value={formData.backgroundColor}
         onChange={handleChange}
         required
@@ -50,6 +51,7 @@ function NewBoxForm({ addBox }) {
       <input
         type="number"
         name="width"
+        id="width"
         value={formData.width}
         onChange={handleChange}
         required
@@ -58,6 +60,7 @@ function NewBoxForm({ addBox }) {
       <input
         type="number"
         name="height"
+        id="height"
         value={formData.height}
         onChange={handleChange}
         required
